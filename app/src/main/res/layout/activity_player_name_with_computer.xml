@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#145DA5"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp">
+
+    <EditText
+        android:id="@+id/player1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Your name"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#006666"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/numberOfG"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#006666"
+        android:hint="@string/number_of_games_hint"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#0BECE5"
+        android:onClick="submitName"
+        android:layout_marginTop="50dp"
+        android:text="@string/playernames_submit_button"
+        android:textColor="#330033"
+        android:textSize="16sp" />
+</LinearLayout>
+
+
